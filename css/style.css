@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    color: black;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+    margin-left: -645.14px;
+margin-top: 39.38px;
+margin-bottom: -3.25%;
+transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.col-2 h1{
+    position: absolute;
+width: 425px;
+height: 96px;
+left: 55px;
+top: 170px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 48px;
+/* or 150% */
+
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+.header{
+    background:linear-gradient(180deg, #6BB4C0 0%, #0E6C7B 100%);
+}
+.header .row{
+margin-top: 70px;
+}
+.cover{
+    position: absolute;
+width: 842px;
+height: 800px;
+left: 598px;
+top: 0px;
+
+background: #FFFFFF;
+border-radius: 60px 0px 0px 60px;
+}
+.account {
+    left: 76px;
+    margin-top: -375px;
+    text-align: center;
+}
+.account ,.h1{
+
+position: absolute;
+width: 297px;
+height: 42px;
+left: 166px;
+top: 112px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 42px;
+/* identical to box height */
+
+
+color: #6F6F6F;
+}
+.account ,.image{
+    position: absolute;
+width: 600px;
+height: 2px;
+left: 46px;
+top: 88px;
+
+}
+.account , .or{
+    position: absolute;
+width: 600px;
+height: 2px;
+text-align: center;
+top: 150px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 34px;
+/* identical to box height */
+
+}
+text {
+position: absolute;
+width: 509px;
+height: 52px;
+left: 169px;
+top: 190px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 10px rgba(107, 180, 192, 0.3);
+border-radius: 4px;
+}
+.account form{
+    position: absolute;
+    width: 65px;
+    height: 196px;
+    left: 69px;
+    top: 190px;
+}
+.account, .terms{
+    position: absolute;
+width: 320px;
+height: 21px;
+left: 130px;
+top: 360px;
+
+}
+button{
+    position: absolute;
+    width: 500px;
+    height: 41px;
+    left: 60px;
+    top: 400px;
+    background: linear-gradient(180deg, #6BB4C0 0%, #0E6C7B 100%);
+    color: white;
+}
+
+span{
+    color: linear-gradient(180deg, #6BB4C0 0%, #0E6C7B 100%);
+}
+.account, .condition{
+    position: absolute;
+width: 320px;
+height: 21px;
+left: 130px;
+top: 440px;
+
+}
